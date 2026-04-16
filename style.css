@@ -1,0 +1,17 @@
+html { scroll-behavior: smooth; }
+
+.skill-card {
+    background: #1f2937;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    background: #06b6d4;
+    color: black;
+}
