@@ -1,17 +1,31 @@
-html { scroll-behavior: smooth; }
+html {
+    scroll-behavior: smooth;
+}
 
-.skill-card {
-    background: #1f2937;
+.card {
+    background: #111827;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #06b6d4;
+}
+
+.project-card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 15px;
     transition: 0.3s;
 }
 
-.skill-card:hover {
-    transform: translateY(-10px);
-    background: #06b6d4;
-    color: black;
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px cyan;
 }
